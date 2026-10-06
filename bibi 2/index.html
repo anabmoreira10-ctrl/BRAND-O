@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BRANDÃO — 85</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- LOADING -->
+
+    <div class="loader" id="loader">
+        <div class="loader-logo">85</div>
+        <div class="loader-line"></div>
+    </div>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="#home" class="brand">
+            BRANDÃO<span>85</span>
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#home">INÍCIO</a>
+            <a href="#music">MÚSICA</a>
+            <a href="#visuals">VISUAIS</a>
+            <a href="#about">SOBRE</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE NAV -->
+
+    <div class="mobile-nav" id="mobileNav">
+
+        <a href="#home">INÍCIO</a>
+        <a href="#music">MÚSICA</a>
+        <a href="#visuals">VISUAIS</a>
+        <a href="#about">SOBRE</a>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-bg"></div>
+
+            <div class="noise"></div>
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    FORTALEZA — CE / BRASIL
+                </p>
+
+                <h1>
+                    BRANDÃO
+                    <span>85</span>
+                </h1>
+
+                <p class="hero-description">
+                    RAP. TRAP. PRODUÇÃO.
+                    <br>
+                    UMA NOVA FASE.
+                </p>
+
+                <a href="#music" class="hero-button">
+                    OUVIR AGORA
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+
+            <div class="hero-side">
+                <span>EST. 2018</span>
+                <span>SCROLL ↓</span>
+            </div>
+
+
+            <div class="hero-bottom">
+                <span>01</span>
+                <div></div>
+                <span>BRANDÃO85</span>
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+
+        <section class="intro">
+
+            <div class="intro-number">
+                01
+            </div>
+
+            <div class="intro-text">
+
+                <p class="label">
+                    QUEM É BRANDÃO?
+                </p>
+
+                <h2>
+                    NÃO É SÓ
+                    <br>
+                    <span>TRAP.</span>
+                </h2>
+
+                <p>
+                    Uma identidade construída entre música,
+                    produção e experiências. O som encontra
+                    a estética e transforma cada fase em
+                    uma nova história.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- MUSIC -->
+
+        <section class="music" id="music">
+
+            <div class="section-top">
+
+                <div>
+                    <span class="label">02 / MÚSICA</span>
+
+                    <h2>
+                        PRINCIPAIS
+                        <br>
+                        <span>FASES</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Explore alguns projetos e momentos
+                    marcantes da trajetória artística.
+                </p>
+
+            </div>
+
+
+            <div class="albums">
+
+                <article class="album">
+
+                    <div class="album-cover cover-ceo">
+                        <span>CEO</span>
+                    </div>
+
+                    <div class="album-info">
+
+                        <span>2024</span>
+
+                        <h3>CEO</h3>
+
+                        <button onclick="openAlbum('CEO', '2024')">
+                            VER PROJETO →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="album">
+
+                    <div class="album-cover cover-isso">
+                        <span>ISSO<br>É<br>TRAP</span>
+                    </div>
+
+                    <div class="album-info">
+
+                        <span>MIXTAPE</span>
+
+                        <h3>ISSO É TRAP</h3>
+
+                        <button onclick="openAlbum('ISSO É TRAP', '2025')">
+                            VER PROJETO →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="album">
+
+                    <div class="album-cover cover-zoo">
+                        <span>ZOO</span>
+                    </div>
+
+                    <div class="album-info">
+
+                        <span>2022</span>
+
+                        <h3>ZOO</h3>
+
+                        <button onclick="openAlbum('ZOO', '2022')">
+                            VER PROJETO →
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- BIG STATEMENT -->
+
+        <section class="statement">
+
+            <div class="statement-bg"></div>
+
+            <div class="statement-content">
+
+                <span>BRANDÃO85</span>
+
+                <h2>
+                    ISSO
+                    <br>
+                    <em>É</em>
+                    <br>
+                    TRAP.
+                </h2>
+
+                <div class="statement-line"></div>
+
+                <p>
+                    SOM • CULTURA • IDENTIDADE
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- VISUALS -->
+
+        <section class="visuals" id="visuals">
+
+            <div class="section-top">
+
+                <div>
+                    <span class="label">03 / VISUAIS</span>
+
+                    <h2>
+                        VISUAL
+                        <br>
+                        <span>WORLD</span>
+                    </h2>
+                </div>
+
+                <p>
+                    A estética acompanha o som:
+                    escura, urbana e cinematográfica.
+                </p>
+
+            </div>
+
+
+            <div class="visual-grid">
+
+                <div class="visual visual-one">
+                    <span>01</span>
+                </div>
+
+                <div class="visual visual-two">
+                    <span>02</span>
+                </div>
+
+                <div class="visual visual-three">
+                    <span>03</span>
+                </div>
+
+                <div class="visual visual-four">
+                    <span>04</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUOTE -->
+
+        <section class="quote-section">
+
+            <div class="quote-mark">“</div>
+
+            <blockquote id="quote">
+                MINHA HISTÓRIA
+                <br>
+                AINDA ESTÁ
+                <br>
+                SENDO ESCRITA.
+            </blockquote>
+
+            <button onclick="changeQuote()">
+                PRÓXIMA FRASE ↗
+            </button>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
+
+            <span class="label">04 / SOBRE</span>
+
+            <h2>
+                DO CEARÁ
+                <br>
+                <span>PRO MUNDO.</span>
+            </h2>
+
+            <p>
+                Brandão85 começou sua trajetória musical em 2018
+                e passou a ganhar destaque na cena nacional do trap.
+                Seu trabalho reúne rap, trap, R&B e produção musical.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-brand">
+            BRANDÃO<span>85</span>
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">INÍCIO</a>
+            <a href="#music">MÚSICA</a>
+            <a href="#visuals">VISUAIS</a>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 — FAN PROJECT
+        </div>
+
+    </footer>
+
+
+    <!-- MODAL -->
+
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close" onclick="closeAlbum()">
+                ×
+            </button>
+
+            <span>PROJETO</span>
+
+            <h2 id="albumTitle">
+                CEO
+            </h2>
+
+            <div class="modal-line"></div>
+
+            <p>
+                Projeto selecionado.
+            </p>
+
+            <strong id="albumYear">
+                2024
+            </strong>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
